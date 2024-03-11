@@ -1,0 +1,30 @@
+function is_prime(n)
+    if n <= 1
+        return false
+    end
+
+    for i in 2:isqrt(n)
+        if n % i == 0
+            return false
+        end
+    end
+
+    return true
+end
+
+while true
+    println("Digite um número para verificar se é primo (ou 'q' para encerrar):")
+    entrada = readline()
+
+    if entrada == "q"
+        break
+    end
+
+    numero = parse(Int64, entrada)
+
+    if is_prime(numero)
+        println("O número $numero é primo.")
+    else
+        println("O número $numero não é primo.")
+    end
+end
