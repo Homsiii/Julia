@@ -22,4 +22,4 @@ Contributions to this repository are not currently accepted as it is a personal 
 
 If you have any questions or need support related to the Julia codes in this repository, please feel free to contact me at www.linkedin.com/in/gabriel-homsi
 
-Have fun learning Julia and solving the exercises!
+Have fun learning Julia and and viewing my codes!
