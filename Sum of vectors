@@ -1,0 +1,12 @@
+function soma_vetor(vetor)
+    soma = 0
+    for elemento in vetor
+        soma += elemento
+    end
+    return soma
+end
+
+
+vetor = [1, 2, 3, 4, 5]
+resultado = soma_vetor(vetor)
+println(resultado)  
